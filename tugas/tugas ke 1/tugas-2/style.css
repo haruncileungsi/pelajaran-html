@@ -1,0 +1,185 @@
+/* Reset margin & font */
+
+.bio-content img {
+    margin-top: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffefef;
+}
+
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f6fa;
+    color: #000000;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+#mulai {
+    text-align: center;
+}
+
+#mulai img {
+    width: 75px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #1634dd;
+}
+
+.subtitle {
+    text-align: center;
+    color: #1634dd;
+    margin-bottom: 30px;
+}
+
+/* Card style */
+.card {
+    background: #e7dbdb;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    color: #1634dd;
+    margin-bottom: 15px;
+    border-left: 4px solid #fffb00;
+    padding-left: 10px;
+}
+
+/* Biodata singkat */
+.bio-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.bio-content p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* List */
+ul, ol {
+    margin-left: 20px;
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+/* Back link */
+.back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #1634dd;
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Reset margin & font */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.bio-content img {
+    width: 150px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffefef;
+}
+
+body {
+    background: #f5f6fa;
+    color: #000000;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #1634dd;
+}
+
+.subtitle {
+    text-align: center;
+    color: #1634dd;
+    margin-bottom: 30px;
+}
+
+/* Card style */
+.card {
+    background: #e7dbdb;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    color: #1634dd;
+    margin-bottom: 15px;
+    border-left: 4px solid #fffb00;
+    padding-left: 10px;
+}
+
+/* Biodata singkat */
+.bio-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.bio-content p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* List */
+ul, ol {
+    margin-left: 20px;
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+/* Back link */
+.back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #1634dd;
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
