@@ -1,0 +1,107 @@
+body { 
+    margin: 0px; /* Menghilangkan margin default dari seluruh halaman */
+}
+
+span {
+    color: rgb(21, 255, 0); /* Memberi warna hijau terang pada elemen <span> */
+}
+
+.red {
+    color: red;             /* Teks berwarna merah */
+    font-weight: bold;      /* Membuat teks menjadi tebal */
+}
+
+header {
+    background-color: rgb(205, 229, 244); /* Warna latar belakang header */
+    width: 90%;                           /* Lebar header 90% dari lebar halaman */
+    padding: 1rem;                        /* Ruang dalam (padding) sebesar 1rem */
+    margin: auto;                         /* Menengahkan header */
+    margin-top: 1rem;                     /* Jarak dari atas */
+    border-radius: 10px;                  /* Sudut border dibulatkan */
+    margin-bottom: 2rem;                  /* Jarak bawah header */
+}
+
+header h1 {
+    font-size: 250%;                      /* Ukuran font lebih besar */
+    color: rgb(24, 24, 194);              /* Warna biru gelap */
+    font-family: "Nosifer", sans-serif;  /* Menggunakan font Nosifer */
+    text-align: center;                   /* Teks rata tengah */
+}
+
+/* Catatan: "deskripsi" bukan elemen HTML standar. 
+   Mungkin maksudnya adalah class .deskripsi atau tag custom. */
+deskripsi p {
+    text-align: center;                   /* Paragraf rata tengah */
+    font-size: smaller;                   /* Ukuran font lebih kecil */
+    font-style: italic;                   /* Huruf miring */
+    color: rgb(0, 0, 0);                  /* Warna hitam */
+}
+
+article {
+    margin: auto;                         /* Artikel ditengah halaman */
+    padding: 1rem;                        /* Padding dalam 1rem */
+    background-color: #fff;              /* Warna latar putih */
+    width: 65%;                           /* Lebar artikel 65% dari halaman */
+    border-radius: 10px;                  /* Sudut membulat */
+    box-shadow: 0 3px 7px rgb(0, 0, 0);   /* Bayangan kotak untuk efek 3D */
+}
+
+article h3 {
+    font-family: "Dafont";               /* Menggunakan font khusus */
+    letter-spacing: 2px;                 /* Jarak antar huruf */
+    word-spacing: 4px;                   /* Jarak antar kata */
+    color: rgb(255, 138, 99);            /* Warna oranye */
+    text-decoration: underline;          /* Garis bawah */
+}
+
+article p {
+    font-family: sans-serif;             /* Font umum yang mudah dibaca */
+}
+
+/* ====== QUOTES ====== */
+blockquote {
+    font-family: sans-serif;             /* Font umum */
+    border-left: 5px solid rgb(0, 4, 255); /* Garis biru di sisi kiri */
+    margin: 2rem;                        /* Margin luar 2rem */
+    background-color: #4069ffd7;         /* Latar biru transparan */
+    padding: 1rem;                       /* Ruang dalam 1rem */
+    text-transform: lowercase;           /* Semua huruf kecil */
+    border-radius: 8px;                  /* Sudut membulat */
+}
+
+/* ====== NOTES ====== */
+.notes {
+    color: rgb(151, 2, 2);               /* Warna merah gelap untuk teks */
+    font-family: sans-serif;             /* Font standar */
+    border-left: 5px solid rgb(255, 0, 85); /* Garis pink di kiri */
+    margin: 2rem;                        /* Margin luar 2rem */
+    background-color: #cc323253;         /* Latar merah transparan */
+    padding: 1rem;                       /* Padding dalam 1rem */
+    border-radius: 8px;                  /* Sudut membulat */
+}
+
+footer {
+    text-align: right;                   /* Posisi teks ke kanan */
+    line-height: 50px;                   /* Tinggi baris 50px */
+    /* background-color: #55545430; */   /* (komentar) Latar transparan keabu-abuan */
+    padding: 2rem;                       /* Padding dalam */
+    margin-bottom: 0px;                  /* Tidak ada margin bawah */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font web-safe */
+}
+
+.author {
+    font-family: "bismillah";            /* Menggunakan font khusus */
+    color: rgb(255, 0, 85);              /* Warna pink mencolok */
+    font-size: xx-large;                 /* Ukuran font sangat besar */
+}
+
+/* ====== FONT CUSTOM ====== */
+@font-face {
+    font-family: "bismillah";            /* Nama font kustom */
+    src: url(font/Bismillah\ Script.ttf);/* Lokasi file font */
+}
+
+@font-face {
+    font-family: "Dafont";               /* Nama font kustom lainnya */
+    src: url(font/Super\ Squad.ttf);     /* Lokasi file font */
+}
