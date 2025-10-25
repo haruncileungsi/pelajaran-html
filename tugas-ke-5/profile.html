@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tugas CSS Komponen</title>
+  <link rel="stylesheet" href="code.css" />
+</head>
+<body>
+    <h2>Solusi Tugas CSS Komponen</h2>
+    <div class="container">
+    <!-- 1. Alert Info -->
+    <section>
+      <h3><span>1</span> Alert Info</h3>
+      <div class="alert">
+        <p>ℹ️ <b>Info:</b> Pastikan data Anda sudah lengkap sebelum dikirim.</p>
+        <button class="close">×</button>
+      </div>
+    </section>
+    </div>
+    <!-- 2. Profile Card -->
+    <div class="container">
+    <section>
+      <h3><span>2</span> Profile Card</h3>
+      <div class="profile-card">
+        <img src="../../images/photo_2025-10-09_20-41-54.jpg" alt="Andika Putra" />
+        <span class="status-badge">Active</span>
+        <h4>Andika Putra</h4>
+        <p>Frontend Developer</p>
+      </div>
+    </section>
+    </div>
+    <div class="container">
+    <!-- 3. Pricing Card -->
+    <section>
+      <h3><span>3</span> Pricing Card</h3>
+      <div class="pricing-container">
+         <div class="flaxbox-area">
+            <div class="card">
+                <h4 class="blue">Paket dasar</h4>
+                <h1>$15</h1>
+                <p>5 Pengguna<br>2 GB Penyimpanan<br>Dukungan Email</p>
+                <button class="btn blue">Pilih Dasar</button>                
+            </div>
+            <div class="card pro blue">
+                <h4 class="red"> Paket Pro</h4>
+                <h1 class="price red">$49</h1>
+                <p><b>20 Pengguna</b><br><b>10 GB Penyimpanan</b><br>Dukungan Prioritas</p>
+                <button class="btn red">Beli PRO</button>
+            </div>
+            <div class="card">
+                <h4 class="green">Paket biasa</h4>
+                <h1>$99</h1>
+                <p>Tidak Terbatas<br>50 GB Penyimpanan<br>Dukungan 24/7</p>
+                <button class="btn green">Hubungi Kami</button>
+            </div>
+         </div>
+    </section>
+  </div>
+
+  <script>
+    // Tutup alert
+    document.querySelector(".close").onclick = function() {
+      this.parentElement.style.display = "none";
+    };
+  </script>
+</body>
+</html>
