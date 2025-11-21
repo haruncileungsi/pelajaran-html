@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tanggapan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <header class="text-center">
+        <img src="../../images/logo.webp" width="90px" alt="LOGO">
+        <h1 class="text-primary">FORMULIR UMPAN BALIK</h1>
+        <p class="text-secondary">
+            KRITIK, SARAN & MASUKAN
+        </p>
+    </header>
+    <hr>
+    <div class="text-center container bg-white">
+        <button type="button" class="btn btn-outline-primary">
+        <a  href="index.html"><b>Beranda</b></a></button>
+        <button type="button" class="btn btn-outline-primary">
+        <a class="active" href="biodata.html"><b>Biodata</b></a></button>
+        <button type="button" class="btn btn-outline-primary">
+        <a href="jadwal.html"><b>Jadwal</b></a></button>
+        <button type="button" class="btn btn-outline-primary">
+        <a href="galeri.html"><b>Galeri</b></a></button>
+        <button type="button" class="btn btn-outline-primary">
+        <a href="feedback.html"><b>Tanggapan balik</b></a></button>
+    </div>
+    <hr>
+    <section class="container">
+        <h3>
+            <span class="tag">|</span> Formulir Kontak & Saran
+        </h3>
+        <p>
+          Berikan komentar dan saran kalian disini. <br>
+          <i>Aku lebih suka hinaan yang nyata dari pada pujian yang palsu</i> 
+        </p>
+        <form action="https://httpbin.org/post" method="post" class="text-el">
+            <label for="innama">Nama Anda (Opsional) :</label> <br>
+            <input  type="text" name="nama" id="innama">
+
+            <br> <br>
+
+            <label for="inmail">Email anda :</label> <br>
+            <input type="email" name="mail" id="inmail">
+
+            <br> <br>
+
+            <label for="inrating">Rating web ini 1-100 :</label> <br>
+            <input type="number" name="rating" id="inrating">
+
+            <br> <br>
+
+            <h4>Penilaian Website ini  :</h4>
+            <label for="inintasyar">Bagus</label>
+            <input type="radio" name="intasyar" id="inintasyar">
+
+            <label for="inintasyar1">Lumayan</label>
+            <input type="radio" name="intasyar" id="inintasyar1">
+
+            <label for="inintasyar2">TIDAK bagus</label>
+            <input type="radio" name="intasyar" id="inintasyar2"> <br> <br>
+
+            <label for="halaman">Halaman yang paling menarik?</label>
+            <select name="pilihanditangan" id="halaman">
+                <option value="biodata">BIODATA</option>
+                <option value="galeri">GALERI</option>
+                <option value="jadwal">JADWAL</option>
+                <option value="index">BERANDA</option>
+            </select>
+
+            <br> <br>
+
+            <label for="inpesan">Tuliskan Saran, pesan & kritik :</label> <br>
+            <textarea class="ukuran-pesan" name="pesan" id="inpesan"></textarea>
+            <div class="container text-center">
+                <br>
+               <button type="reset" class="btn btn-outline-primary m-3">Atur Ulang</button>
+               <button type="submit" class="btn btn-outline-primary m-3">Kirim Feedback</button>
+            </div>
+        </form>
+    </section>
+  </body>
+</html>
